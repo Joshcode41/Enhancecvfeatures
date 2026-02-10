@@ -328,7 +328,7 @@ export default function App() {
                   {
                     title: "University Academic Performance Management System (UAPMS)",
                     type: "Final Year Project",
-                    image: "https://images.unsplash.com/photo-1621388840313-88efbb5b4078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwc3R1ZGVudCUyMGRhc2hib2FyZCUyMGFjYWRlbWljfGVufDF8fHx8MTc3MDcyNjk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+                   // image: "https://images.unsplash.com/photo-1621388840313-88efbb5b4078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwc3R1ZGVudCUyMGRhc2hib2FyZCUyMGFjYWRlbWljfGVufDF8fHx8MTc3MDcyNjk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
                     description:
                       "A web-based management system for online appointment scheduling, course details, lecturer and student management, and account access.",
                     features: [
@@ -347,7 +347,7 @@ export default function App() {
                   {
                     title: "Online Appointment Scheduling System",
                     type: "Web Application",
-                    image: "https://images.unsplash.com/photo-1703300450387-047da16a89c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBhcHBvaW50bWVudCUyMHNjaGVkdWxpbmclMjBjYWxlbmRhcnxlbnwxfHx8fDE3NzA3MjY5NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                    //image: "https://images.unsplash.com/photo-1703300450387-047da16a89c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBhcHBvaW50bWVudCUyMHNjaGVkdWxpbmclMjBjYWxlbmRhcnxlbnwxfHx8fDE3NzA3MjY5NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
                     description:
                       "A web-based platform for online appointment scheduling that simplifies booking, tracks availability, and sends automated confirmations to users.",
                     features: [
@@ -365,7 +365,7 @@ export default function App() {
                   {
                     title: "Mpesa Gateway",
                     type: "API Integration",
-                    image: "https://images.unsplash.com/photo-1607697987724-fc9f8b225223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwcGF5bWVudCUyMGFwcHxlbnwxfHx8fDE3NzA3MjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                   // image: "https://images.unsplash.com/photo-1607697987724-fc9f8b225223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwcGF5bWVudCUyMGFwcHxlbnwxfHx8fDE3NzA3MjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
                     description:
                       "A C&on application that integrates with the M-Pesa API to facilitate mobile money transactions, including payments, balance inquiry, and transaction history retrieval.",
                     features: [
