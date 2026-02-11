@@ -21,6 +21,9 @@ import { Button } from "./components/ui/button";
 import { Badge } from "./components/ui/badge";
 import cvImage from "figma:asset/f971545547f2dbc201ac450a16e412c2b78dc8c2.png";
 import profileImage from "figma:asset/f277876dad4e35cdf591387c259148229388ce32.png";
+import project1Image from "figma:asset/ab78ccdeca273c498ee4b8b387ca546f64759086.png";
+import project2Image from "figma:asset/d12c9e5dba9f299f53173a15f581fe2bd3b64c8b.png";
+import project3Image from "figma:asset/911f38f1f35b7a71c4117237d7d80ffac7bf05ce.png";
 
 // Animation wrapper component
 function FadeInSection({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -328,7 +331,7 @@ export default function App() {
                   {
                     title: "University Academic Performance Management System (UAPMS)",
                     type: "Final Year Project",
-                   // image: "https://images.unsplash.com/photo-1621388840313-88efbb5b4078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwc3R1ZGVudCUyMGRhc2hib2FyZCUyMGFjYWRlbWljfGVufDF8fHx8MTc3MDcyNjk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+                    image: project1Image,
                     description:
                       "A web-based management system for online appointment scheduling, course details, lecturer and student management, and account access.",
                     features: [
@@ -347,7 +350,7 @@ export default function App() {
                   {
                     title: "Online Appointment Scheduling System",
                     type: "Web Application",
-                    //image: "https://images.unsplash.com/photo-1703300450387-047da16a89c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBhcHBvaW50bWVudCUyMHNjaGVkdWxpbmclMjBjYWxlbmRhcnxlbnwxfHx8fDE3NzA3MjY5NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                    image: project2Image,
                     description:
                       "A web-based platform for online appointment scheduling that simplifies booking, tracks availability, and sends automated confirmations to users.",
                     features: [
@@ -365,7 +368,7 @@ export default function App() {
                   {
                     title: "Mpesa Gateway",
                     type: "API Integration",
-                   // image: "https://images.unsplash.com/photo-1607697987724-fc9f8b225223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwcGF5bWVudCUyMGFwcHxlbnwxfHx8fDE3NzA3MjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+                    image: project3Image,
                     description:
                       "A C&on application that integrates with the M-Pesa API to facilitate mobile money transactions, including payments, balance inquiry, and transaction history retrieval.",
                     features: [
@@ -784,6 +787,15 @@ export default function App() {
           </FadeInSection>
         </div>
       </div>
+      
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-6">
+        <div className="max-w-7xl mx-auto px-8 text-center">
+          <p className="text-sm">
+            © {new Date().getFullYear()} Joshua Owuonda. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
